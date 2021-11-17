@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(118, 7, 133), rgb(30, 4, 51)) ;
+    font: 32px 'Open Sans', sans-serif;
+    height: 100vh; 
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+header {
+    align-items: center;
+    background-color: rgba(54, 30, 7, 0.5);
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center; 
+    text-transform: uppercase;  
+}
+
+form{
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 5px;
+    width: 100%;
+}
+
+form > input{
+    border: none;
+    font-size: 60%;
+    height: 60px;
+    padding-left: 5px;
+    /*outline: none;*/
+    width: 100%;
+}
+
+form > button{
+    background-color:rgb(118, 7, 133);
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    height: 60px;
+    padding: 10px;
+    transition: all 0.2s ease; 
+}
+
+form > button:hover {
+    background-color: rgb(30, 4, 51);
+    color: rgb(118, 7, 133);
+  }
+
+.tasks_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.list{
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    font-size: 50%;
+    font-weight: bold;
+    height: 60px;
+    justify-content: center;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.list:hover{
+    background-color: rgb(63, 35, 9, 0.5);
+    color: #fff 
+}
+
+.listItem {
+    list-style: none;
+    padding: 5px;
+    transition: all 0.5s ease;
+    width: 100%;       
+}
+
+.checkbox {
+    cursor: pointer;
+    height: 30px; 
+    width: 30px;    
+}
+
+.completed { 
+    text-decoration:line-through;  
+    opacity: 0.5;  
+}
+
+.deleteBtn{
+    background-color: rgb(118, 7, 133);
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+    height: 60px;
+    padding: 10px;
+    transition: all 0.2s ease;    
+}
+
+.deleteBtn:hover{
+    background-color: rgb(30, 4, 51);
+    color:rgb(118, 7, 133);
+}
+
+
+
+
+
